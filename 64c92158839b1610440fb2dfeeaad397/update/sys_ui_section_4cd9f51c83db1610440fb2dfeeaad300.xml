@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-20 18:22:34</sys_created_on>
-            <sys_id>e5050698831f1610440fb2dfeeaad32d</sys_id>
+            <sys_created_on>2025-01-20 20:55:45</sys_created_on>
+            <sys_id>a518ee9483df1610440fb2dfeeaad325</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1593185_refoun_0_refound_request" sys_domain="global" view="Default view">4cd9f51c83db1610440fb2dfeeaad300</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-20 18:22:34</sys_updated_on>
+            <sys_updated_on>2025-01-20 20:55:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>category_name</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-20 18:22:34</sys_created_on>
-            <sys_id>a1050698831f1610440fb2dfeeaad32e</sys_id>
+            <sys_created_on>2025-01-20 20:55:45</sys_created_on>
+            <sys_id>6118ee9483df1610440fb2dfeeaad326</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1593185_refoun_0_refound_request" sys_domain="global" view="Default view">4cd9f51c83db1610440fb2dfeeaad300</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-20 18:22:34</sys_updated_on>
+            <sys_updated_on>2025-01-20 20:55:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,111 +32,139 @@
             <element>group</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-20 18:22:34</sys_created_on>
-            <sys_id>29050698831f1610440fb2dfeeaad32e</sys_id>
+            <sys_created_on>2025-01-20 20:55:45</sys_created_on>
+            <sys_id>e518ee9483df1610440fb2dfeeaad326</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1593185_refoun_0_refound_request" sys_domain="global" view="Default view">4cd9f51c83db1610440fb2dfeeaad300</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-20 18:22:34</sys_updated_on>
+            <sys_updated_on>2025-01-20 20:55:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>amount_to_pay</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 20:55:45</sys_created_on>
+            <sys_id>6d18ee9483df1610440fb2dfeeaad326</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1593185_refoun_0_refound_request" sys_domain="global" view="Default view">4cd9f51c83db1610440fb2dfeeaad300</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 20:55:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-20 18:22:34</sys_created_on>
-            <sys_id>ad050698831f1610440fb2dfeeaad32e</sys_id>
+            <sys_created_on>2025-01-20 20:55:45</sys_created_on>
+            <sys_id>e118ee9483df1610440fb2dfeeaad327</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1593185_refoun_0_refound_request" sys_domain="global" view="Default view">4cd9f51c83db1610440fb2dfeeaad300</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-20 18:22:34</sys_updated_on>
+            <sys_updated_on>2025-01-20 20:55:45</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-20 18:22:34</sys_created_on>
-            <sys_id>25050698831f1610440fb2dfeeaad32f</sys_id>
+            <sys_created_on>2025-01-20 20:55:45</sys_created_on>
+            <sys_id>6918ee9483df1610440fb2dfeeaad327</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1593185_refoun_0_refound_request" sys_domain="global" view="Default view">4cd9f51c83db1610440fb2dfeeaad300</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-20 18:22:34</sys_updated_on>
+            <sys_updated_on>2025-01-20 20:55:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>date_of_expenditure</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-20 18:22:34</sys_created_on>
-            <sys_id>a9050698831f1610440fb2dfeeaad32f</sys_id>
+            <sys_created_on>2025-01-20 20:55:45</sys_created_on>
+            <sys_id>ed18ee9483df1610440fb2dfeeaad327</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1593185_refoun_0_refound_request" sys_domain="global" view="Default view">4cd9f51c83db1610440fb2dfeeaad300</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-20 18:22:34</sys_updated_on>
+            <sys_updated_on>2025-01-20 20:55:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sys_created_by</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-20 18:22:34</sys_created_on>
-            <sys_id>21050698831f1610440fb2dfeeaad330</sys_id>
+            <sys_created_on>2025-01-20 20:55:45</sys_created_on>
+            <sys_id>6518ee9483df1610440fb2dfeeaad328</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1593185_refoun_0_refound_request" sys_domain="global" view="Default view">4cd9f51c83db1610440fb2dfeeaad300</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-20 18:22:34</sys_updated_on>
+            <sys_updated_on>2025-01-20 20:55:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>amount_dolar</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 20:55:45</sys_created_on>
+            <sys_id>e918ee9483df1610440fb2dfeeaad328</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1593185_refoun_0_refound_request" sys_domain="global" view="Default view">4cd9f51c83db1610440fb2dfeeaad300</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 20:55:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>7</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-20 18:22:34</sys_created_on>
-            <sys_id>a5050698831f1610440fb2dfeeaad330</sys_id>
+            <sys_created_on>2025-01-20 20:55:45</sys_created_on>
+            <sys_id>6118ee9483df1610440fb2dfeeaad329</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1593185_refoun_0_refound_request" sys_domain="global" view="Default view">4cd9f51c83db1610440fb2dfeeaad300</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-20 18:22:34</sys_updated_on>
+            <sys_updated_on>2025-01-20 20:55:45</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>8</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-20 18:22:34</sys_created_on>
-            <sys_id>2d050698831f1610440fb2dfeeaad330</sys_id>
+            <sys_created_on>2025-01-20 20:55:45</sys_created_on>
+            <sys_id>e518ee9483df1610440fb2dfeeaad329</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1593185_refoun_0_refound_request" sys_domain="global" view="Default view">4cd9f51c83db1610440fb2dfeeaad300</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-20 18:22:34</sys_updated_on>
+            <sys_updated_on>2025-01-20 20:55:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>reproval_reason</element>
-            <position>9</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-20 18:22:34</sys_created_on>
-            <sys_id>a1050698831f1610440fb2dfeeaad331</sys_id>
+            <sys_created_on>2025-01-20 20:55:45</sys_created_on>
+            <sys_id>6d18ee9483df1610440fb2dfeeaad329</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1593185_refoun_0_refound_request" sys_domain="global" view="Default view">4cd9f51c83db1610440fb2dfeeaad300</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-20 18:22:34</sys_updated_on>
+            <sys_updated_on>2025-01-20 20:55:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
