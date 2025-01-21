@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="2bfa2998839b1610440fb2dfeeaad3cc" label="Refound Category" max_length="40" name="x_1593185_refoun_0_refound_category" type="collection">
-        <element display="true" label="Category Name" max_length="100" name="category_name" type="string"/>
+    <element db_object_id="2bfa2998839b1610440fb2dfeeaad3cc" label="Refund Category" max_length="40" name="x_1593185_refoun_0_refound_category" type="collection">
+        <element display="true" label="Category Name" mandatory="true" max_length="100" name="category_name" type="string"/>
+        <element label="Solving Group" mandatory="true" max_length="32" name="solving_group" reference="sys_user_group" type="reference"/>
+        <index name="index">
+            <element name="solving_group"/>
+        </index>
     </element>
 </database>
