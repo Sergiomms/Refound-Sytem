@@ -27,7 +27,7 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Currency">currency</internal_type>
+        <internal_type display_value="Decimal">decimal</internal_type>
         <mandatory>false</mandatory>
         <max_length>20</max_length>
         <name>x_1593185_refoun_0_refound_request</name>
@@ -48,12 +48,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 18:15:05</sys_created_on>
         <sys_name>Amount Dolar</sys_name>
-        <sys_package display_value="Refound System" source="x_1593185_refoun_0">64c92158839b1610440fb2dfeeaad397</sys_package>
+        <sys_package display_value="Refund System" source="x_1593185_refoun_0">64c92158839b1610440fb2dfeeaad397</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Refound System">64c92158839b1610440fb2dfeeaad397</sys_scope>
+        <sys_scope display_value="Refund System">64c92158839b1610440fb2dfeeaad397</sys_scope>
         <sys_update_name>sys_dictionary_x_1593185_refoun_0_refound_request_amount_dolar</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-20 18:15:06</sys_updated_on>
+        <sys_updated_on>2025-01-22 12:33:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

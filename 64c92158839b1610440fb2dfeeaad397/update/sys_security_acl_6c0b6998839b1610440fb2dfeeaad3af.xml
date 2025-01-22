@@ -6,7 +6,7 @@
         <applies_to/>
         <condition/>
         <decision_type>allow</decision_type>
-        <description>Allow write for records in x_1593185_refoun_0_refound_category, for users with role x_1593185_refoun_0.admin.</description>
+        <description>Admin</description>
         <local_or_existing>Local</local_or_existing>
         <name>x_1593185_refoun_0_refound_category</name>
         <operation display_value="write">write</operation>
@@ -16,14 +16,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 16:28:54</sys_created_on>
         <sys_id>6c0b6998839b1610440fb2dfeeaad3af</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>x_1593185_refoun_0_refound_category</sys_name>
         <sys_package display_value="Refund System" source="x_1593185_refoun_0">64c92158839b1610440fb2dfeeaad397</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refund System">64c92158839b1610440fb2dfeeaad397</sys_scope>
         <sys_update_name>sys_security_acl_6c0b6998839b1610440fb2dfeeaad3af</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 20:29:41</sys_updated_on>
+        <sys_updated_on>2025-01-22 18:18:17</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
     <sys_es_latest_script action="INSERT_OR_UPDATE">

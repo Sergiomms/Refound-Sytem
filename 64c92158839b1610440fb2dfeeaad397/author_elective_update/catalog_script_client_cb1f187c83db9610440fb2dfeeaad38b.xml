@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Refund Request">d3d4d69c835f1610440fb2dfeeaad340</cat_item>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>getUserGroupScript</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   var ga = new GlideAjax("GetUserGroups"); // Chama o Script Include
+    ga.addParam("sysparm_name", "getGroups"); // Especifica a função a ser chamada
+    ga.getXMLAnswer(function(response) {
+        var userGroups = response; // Obtém a resposta do servidor
+        g_form.setValue("group", userGroups); // Define o valor no campo do formulário
+		alert(response);
+    });
+   
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 00:31:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cb1f187c83db9610440fb2dfeeaad38b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>getUserGroupScript</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Refund System" source="x_1593185_refoun_0">64c92158839b1610440fb2dfeeaad397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund System">64c92158839b1610440fb2dfeeaad397</sys_scope>
+        <sys_update_name>catalog_script_client_cb1f187c83db9610440fb2dfeeaad38b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 00:36:53</sys_updated_on>
+        <table/>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <va_supported>true</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_es_latest_script action="DELETE">
+        <id>cb1f187c83db9610440fb2dfeeaad38b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 00:31:55</sys_created_on>
+        <sys_id>3d23a870831f9610440fb2dfeeaad356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 00:31:55</sys_updated_on>
+        <table>catalog_script_client</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund System">64c92158839b1610440fb2dfeeaad397</application>
+        <file_path/>
+        <instance_id>d8e710dadbd2fd5037d72a5913961980</instance_id>
+        <instance_name>dev206006</instance_name>
+        <name>catalog_script_client_cb1f187c83db9610440fb2dfeeaad38b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Refund Request"&gt;d3d4d69c835f1610440fb2dfeeaad340&lt;/cat_item&gt;&lt;cat_variable/&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;getUserGroupScript&lt;/name&gt;&lt;order/&gt;&lt;published_ref/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   var ga = new GlideAjax("GetUserGroups"); // Chama o Script Include
+    ga.addParam("sysparm_name", "getGroups"); // Especifica a função a ser chamada
+    ga.getXMLAnswer(function(response) {
+        var userGroups = response; // Obtém a resposta do servidor
+        g_form.setValue("group", userGroups); // Define o valor no campo do formulário
+		alert(response);
+    });
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-22 00:31:56&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;cb1f187c83db9610440fb2dfeeaad38b&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;getUserGroupScript&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Refund System" source="x_1593185_refoun_0"&gt;64c92158839b1610440fb2dfeeaad397&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Refund System"&gt;64c92158839b1610440fb2dfeeaad397&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_cb1f187c83db9610440fb2dfeeaad38b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-22 00:36:53&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;cb1f187c83db9610440fb2dfeeaad38b&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-22 00:31:55&lt;/sys_created_on&gt;&lt;sys_id&gt;3d23a870831f9610440fb2dfeeaad356&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-22 00:31:55&lt;/sys_updated_on&gt;&lt;table&gt;catalog_script_client&lt;/table&gt;&lt;use_es_latest&gt;false&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1219199993</payload_hash>
+        <record_name>getUserGroupScript</record_name>
+        <reverted_from/>
+        <source>83745e5c835f1610440fb2dfeeaad37a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 00:36:53</sys_created_on>
+        <sys_id>2244ecf0831f9610440fb2dfeeaad330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1948b70cd430000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 00:36:53</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>2e44e8f0991f9610119b3bad594887c8</update_guid>
+        <update_guid_history>2e44e8f0991f9610119b3bad594887c8:-1219199993,db33a4b0811f9610db5bc2c0255619d2:-1041611680,c62324b0221f96104a0e0a376381d7d8:285012754</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="getUserGroupScript">7f2764f4831f9610440fb2dfeeaad3e5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 00:49:32</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>3bf6de728e3949009d30dc1f0aae9000</sys_id>
+        <sys_metadata>cb1f187c83db9610440fb2dfeeaad38b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getUserGroupScript</sys_name>
+        <sys_package display_value="Refund System" source="x_1593185_refoun_0">64c92158839b1610440fb2dfeeaad397</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Refund System">64c92158839b1610440fb2dfeeaad397</sys_scope>
+        <sys_scope_delete display_value="">02bb7b98e13b45d2801795f16fa47be4</sys_scope_delete>
+        <sys_update_name>catalog_script_client_cb1f187c83db9610440fb2dfeeaad38b</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_cb1f187c83db9610440fb2dfeeaad38b">2244ecf0831f9610440fb2dfeeaad330</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 00:49:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

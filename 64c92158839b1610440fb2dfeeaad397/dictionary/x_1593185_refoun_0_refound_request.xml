@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="ffc9b51c83db1610440fb2dfeeaad351" extends="task" label="Refound Request" max_length="40" name="x_1593185_refoun_0_refound_request" type="collection">
+    <element db_object_id="ffc9b51c83db1610440fb2dfeeaad351" extends="task" label="Refund Request" max_length="40" name="x_1593185_refoun_0_refound_request" type="collection">
         <element label="Group" max_length="32" name="group" reference="sys_user_group" type="reference"/>
-        <element label="Category Name" max_length="1024" name="category_name" reference="x_1593185_refoun_0_refound_category" type="glide_list"/>
+        <element label="Solving Group" max_length="100" name="solving_group" type="string"/>
         <element label="Date of Expenditure" max_length="40" name="date_of_expenditure" type="glide_date"/>
-        <element default="0" label="Amount to Pay" max_length="20" name="amount_to_pay" type="currency"/>
+        <element default="0" label="Amount to Pay" max_length="20" name="amount_to_pay" type="decimal"/>
         <element label="Reproval Reason" max_length="4000" name="reproval_reason" type="string"/>
-        <element default="0" label="Amount Dolar" max_length="20" name="amount_dolar" type="currency"/>
+        <element default="0" label="Amount Dolar" max_length="20" name="amount_dolar" type="decimal"/>
+        <element label="Category Name" max_length="32" name="category_name" reference="x_1593185_refoun_0_refound_category" type="reference"/>
     </element>
 </database>
