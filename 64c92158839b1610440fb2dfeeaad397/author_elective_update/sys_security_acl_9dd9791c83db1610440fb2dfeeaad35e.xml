@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description>Refund solver</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1593185_refoun_0_refound_request.*</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 17:33:40</sys_created_on>
+        <sys_id>9dd9791c83db1610440fb2dfeeaad35e</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>x_1593185_refoun_0_refound_request.*</sys_name>
+        <sys_package display_value="Refund System" source="x_1593185_refoun_0">64c92158839b1610440fb2dfeeaad397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund System">64c92158839b1610440fb2dfeeaad397</sys_scope>
+        <sys_update_name>sys_security_acl_9dd9791c83db1610440fb2dfeeaad35e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 21:21:02</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_es_latest_script action="DELETE">
+        <id>9dd9791c83db1610440fb2dfeeaad35e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 21:07:50</sys_created_on>
+        <sys_id>547477a4831b9610440fb2dfeeaad360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 21:07:50</sys_updated_on>
+        <table>sys_security_acl</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund System">64c92158839b1610440fb2dfeeaad397</application>
+        <file_path/>
+        <instance_id>d8e710dadbd2fd5037d72a5913961980</instance_id>
+        <instance_name>dev206006</instance_name>
+        <name>sys_security_acl_9dd9791c83db1610440fb2dfeeaad35e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description>Refund solver</description><local_or_existing>Local</local_or_existing><name>x_1593185_refoun_0_refound_request.*</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-20 17:33:40</sys_created_on><sys_id>9dd9791c83db1610440fb2dfeeaad35e</sys_id><sys_mod_count>18</sys_mod_count><sys_name>x_1593185_refoun_0_refound_request.*</sys_name><sys_package display_value="Refund System" source="x_1593185_refoun_0">64c92158839b1610440fb2dfeeaad397</sys_package><sys_policy/><sys_scope display_value="Refund System">64c92158839b1610440fb2dfeeaad397</sys_scope><sys_update_name>sys_security_acl_9dd9791c83db1610440fb2dfeeaad35e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-22 21:21:02</sys_updated_on><type display_value="record">record</type></sys_security_acl><sys_es_latest_script action="INSERT_OR_UPDATE"><id>9dd9791c83db1610440fb2dfeeaad35e</id><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-21 21:07:50</sys_created_on><sys_id>547477a4831b9610440fb2dfeeaad360</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-21 21:07:50</sys_updated_on><table>sys_security_acl</table><use_es_latest>true</use_es_latest></sys_es_latest_script></record_update>]]></payload>
+        <payload_hash>-209850472</payload_hash>
+        <record_name>x_1593185_refoun_0_refound_request.*</record_name>
+        <reverted_from/>
+        <source>83745e5c835f1610440fb2dfeeaad37a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 21:21:03</sys_created_on>
+        <sys_id>eb01cd8d83531a10440fb2dfeeaad30c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1948fe3de210000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 21:21:03</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>5301cd8d0d531a10b30be351de8ef10c</update_guid>
+        <update_guid_history>5301cd8d0d531a10b30be351de8ef10c:-209850472,84e0098d73531a108ceffb97565f6da4:-1559685999,79dff04d2a531a10733616050b20e395:-209850472,3d5ff40d5e531a101dc922934ef0e6ad:-996253306,588b7c4517531a107362eecef32f2f37:-209850472,0187bc41f9531a104f04c120100c6e3e:884935136,894730014c531a10fff6f613d4fce552:-1441950887,aa92b889bc131a10e50f6325f9b4cb7b:884935136,f1f1fc4964131a1084563dc7866484be:536204962,17ade0c1af131a1098bd80f348f6e63e:-149885435,e30bac01a7131a10915848736b99d42d:-1448052341,9df590c1299fd610b5b6fa2b18cfb803:884935136,fc249081ac9fd610bdc2e617c3441d1f:1266014720,b5145481049fd610fe539519a294dee3:-391730327,f090e0fc5bdb9610bfe1e34a53c765c0:142130564,382dd4b82edb9610c26e92e1b0ede5f9:2004070902,a87477a4781b961065f1d10178a1f566:436599968,c16ebeec46d39610ac006dbcc6cc240e:130079733,9dd9791c02db161092f9520727312760:-1805607049</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-23 09:49:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>07302c8ae7464fd68520d452d9337f69</sys_id>
+        <sys_metadata>9dd9791c83db1610440fb2dfeeaad35e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1593185_refoun_0_refound_request.*</sys_name>
+        <sys_package display_value="Refund System" source="x_1593185_refoun_0">64c92158839b1610440fb2dfeeaad397</sys_package>
+        <sys_parent display_value="x_1593185_refoun_0_refound_request">7bc9b51c83db1610440fb2dfeeaad3ac</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Refund System">64c92158839b1610440fb2dfeeaad397</sys_scope>
+        <sys_scope_delete display_value="">02bb7b98e13b45d2801795f16fa47be4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_9dd9791c83db1610440fb2dfeeaad35e</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_9dd9791c83db1610440fb2dfeeaad35e">eb01cd8d83531a10440fb2dfeeaad30c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-23 09:49:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

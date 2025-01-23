@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
     <sys_security_acl action="INSERT_OR_UPDATE">
         <active>true</active>
-        <admin_overrides>true</admin_overrides>
+        <admin_overrides>false</admin_overrides>
         <advanced>true</advanced>
         <applies_to/>
         <condition/>
@@ -10,11 +10,11 @@
         <local_or_existing>Local</local_or_existing>
         <name>x_1593185_refoun_0_refound_category</name>
         <operation display_value="write">write</operation>
-        <script><![CDATA[answer = false; 
+        <script><![CDATA[answer = false;
 
-if(current.isNewRecord()){
+if (current.isNewRecord()) {
 
-answer = true;
+    answer = true;
 
 }]]></script>
         <security_attribute/>
@@ -22,14 +22,14 @@ answer = true;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-21 20:27:56</sys_created_on>
         <sys_id>245ae76883d79610440fb2dfeeaad3bc</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>x_1593185_refoun_0_refound_category</sys_name>
         <sys_package display_value="Refund System" source="x_1593185_refoun_0">64c92158839b1610440fb2dfeeaad397</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refund System">64c92158839b1610440fb2dfeeaad397</sys_scope>
         <sys_update_name>sys_security_acl_245ae76883d79610440fb2dfeeaad3bc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 18:17:54</sys_updated_on>
+        <sys_updated_on>2025-01-23 10:43:24</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
