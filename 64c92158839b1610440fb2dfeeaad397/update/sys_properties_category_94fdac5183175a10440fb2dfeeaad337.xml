@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>Refund System</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-23 14:36:21</sys_created_on>
+        <sys_id>94fdac5183175a10440fb2dfeeaad337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Refund System</sys_name>
+        <sys_package display_value="Refund System" source="x_1593185_refoun_0">64c92158839b1610440fb2dfeeaad397</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund System">64c92158839b1610440fb2dfeeaad397</sys_scope>
+        <sys_update_name>sys_properties_category_94fdac5183175a10440fb2dfeeaad337</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-23 14:36:21</sys_updated_on>
+        <title/>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=94fdac5183175a10440fb2dfeeaad337"/>
+</record_update>
