@@ -3,9 +3,7 @@
         <active>true</active>
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
-        <applies_to table="x_1593185_refoun_0_refound_request">stateNOT IN4,8,6,3^EQ<item display_value="4,8,6,3" endquery="false" field="state" goto="false" newquery="false" operator="NOT IN" or="false" value="4,8,6,3"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </applies_to>
+        <applies_to/>
         <condition/>
         <decision_type>allow</decision_type>
         <description>Refund User</description>
@@ -18,14 +16,25 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-21 17:22:51</sys_created_on>
         <sys_id>a0c04b6483179610440fb2dfeeaad32d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>x_1593185_refoun_0_refound_request</sys_name>
         <sys_package display_value="Refund System" source="x_1593185_refoun_0">64c92158839b1610440fb2dfeeaad397</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refund System">64c92158839b1610440fb2dfeeaad397</sys_scope>
         <sys_update_name>sys_security_acl_a0c04b6483179610440fb2dfeeaad32d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 10:10:37</sys_updated_on>
+        <sys_updated_on>2025-01-24 02:14:05</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>a0c04b6483179610440fb2dfeeaad32d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-24 01:35:02</sys_created_on>
+        <sys_id>46c4471d83df5a10440fb2dfeeaad347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-24 01:35:02</sys_updated_on>
+        <table>sys_security_acl</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>
