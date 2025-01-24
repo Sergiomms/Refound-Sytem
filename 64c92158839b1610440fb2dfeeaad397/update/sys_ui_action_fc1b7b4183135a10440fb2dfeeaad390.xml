@@ -30,11 +30,15 @@
         <name>Complete</name>
         <onclick/>
         <order>100</order>
-        <script><![CDATA[if (
-    gs.getUser().getGroupID().toString() == current.solving_group().toString() || gs.getUserID() != current.opened_by.sys_id.toString()
-) {
+        <script><![CDATA[var solvingGroup = current.solving_group;
+var userGroup = gs.getUser().getMyGroups();
+
+if (userGroup.indexOf(solvingGroup.toString()) != -1) {
     current.setValue("state", "3");
     current.update();
+    action.setRedirectURL(current);
+} else {
+    gs.addErrorMessage("You canot pay this request.");
     action.setRedirectURL(current);
 }]]></script>
         <show_insert>true</show_insert>
@@ -47,7 +51,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fc1b7b4183135a10440fb2dfeeaad390</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Complete</sys_name>
         <sys_overrides/>
         <sys_package display_value="Refund System" source="x_1593185_refoun_0">64c92158839b1610440fb2dfeeaad397</sys_package>
@@ -55,7 +59,7 @@
         <sys_scope display_value="Refund System">64c92158839b1610440fb2dfeeaad397</sys_scope>
         <sys_update_name>sys_ui_action_fc1b7b4183135a10440fb2dfeeaad390</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-24 13:39:18</sys_updated_on>
+        <sys_updated_on>2025-01-24 13:54:29</sys_updated_on>
         <table>x_1593185_refoun_0_refound_request</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
